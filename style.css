@@ -5,7 +5,9 @@
 }
 
 header {
-    background-color: black;
+    position: fixed;
+    background-color: rgb(38, 48, 16);
+    width: 100%;
    
 }
 li {
@@ -16,43 +18,26 @@ a{
     text-decoration: none;
 }
 .navbar {
+    
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-   
-    
 }
-   .navMenu {
-        
-    display: none;
-    /* justify-content: space-between;
-    align-items: center; 
-    gap: 60px; 
-    position: fixed; 
-    top: -100%;
-    gap: 20px;
-    padding: 40px 0;
-    flex-direction: column;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    margin-left: -20px; */
-    
+.navMenu {
+       display: none;  
 }    
 .navMenu.active {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 60px; 
+    align-items: center; 
     position: fixed;
     top: -100%;
     gap: 20px;
     padding: 40px 0;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(38, 48, 16);
     width: 100%;
     text-align: center;
     transition: 0.7s;
@@ -63,9 +48,11 @@ a{
 }
 .nav-branding:hover {
 color:rgb(17, 211, 108);
+font-size: 40px;
 }
 .nav-link:hover {
     color:rgb(215, 218, 10);
+    font-size: 33px ;
 }
 .nav-link {
     font-size: 23px;
@@ -111,7 +98,7 @@ h1 {
     padding: 10px;
 }
 .sectionMain {
-    background: url("Wallpaper   Art wallpaper   Colorful Background Episode 3.jpg") no-repeat center;
+    background: url("backgroundImg/main\ background.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -123,27 +110,66 @@ h2 {
     padding: 70px 0 ;
     text-align: center;
 }
-.skillsSection {
+#skillsSection {
     /* margin-left: -105px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-img {
-    padding: auto;
+.skillsIcons {
+    padding-bottom: 100px;
     max-width: 120px;
 }
 .sectionAbout{
-    background: url("about.jpg") no-repeat center;
+    background: url("backgroundImg/about.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     height: 670px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    font-size: 25px;
+    text-align: justify;
 
 }
-p {
+.sectionAbout p {
     display: flex;
     justify-content: end;
+    padding-right: 15px;
+}
+.skills {
+    padding: auto;
+    max-width: 70px;
+    
+}
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-left: -25px;
+    
+
+}
+footer {
+    text-align: center;
+    background-color: rgb(38, 48, 16);
+    color:azure;
+    padding: 30px;
+    font-size: 20px;
+}
+.projects {
+    max-width: 250px;
+    padding-bottom: 100px;
+}
+.contact {
+    padding: 10px;
+    max-width: 70px;
+}
+.contact:hover {
+    max-width: 90px;
+    transition: 0.5s;
+
+}
+.email:hover {
+    font-size: 30px;
+    transition: 0.5s;
 }
