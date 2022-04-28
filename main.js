@@ -14,6 +14,7 @@
 
 
 //animation effects
+//test
 
 // $(document).on('mousemove', function(event){
 //     let sectionMain = $('.sectionMain');
