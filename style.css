@@ -12,13 +12,14 @@ header {
 }
 li {
     list-style: none;
+    border: 5px;
+    border-color: white;
 }
 a{
     color:white;
     text-decoration: none;
 }
 .navbar {
-    
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,7 @@ a{
 }
 .navMenu {
        display: none;  
+      
 }    
 .navMenu.active {
     display: flex;
@@ -40,11 +42,12 @@ a{
     background-color: rgb(38, 48, 16);
     width: 100%;
     text-align: center;
-    transition: 0.7s;
-    margin-left: -20px;  
+    margin-left: -20px; 
+   
 }
 .navMenu.active{
     top:0;
+ 
 }
 .nav-branding:hover {
 color:rgb(17, 211, 108);
@@ -60,8 +63,8 @@ font-size: 40px;
 
 }
 .nav-branding {
-    font-size: 30px;
-    transition: 0.7s;
+     font-size: 30px;
+    transition: 0.7s; 
 }
 .hamburger {
     display: block;
@@ -102,9 +105,11 @@ h1 {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    height: 670px;
+    height: 730px;
     text-align: center;
     padding: 200px 0 0 0;
+    font-family: 'Goldman', cursive;
+    
 }
 h2 {
     padding: 70px 0 ;
@@ -130,12 +135,14 @@ h2 {
     grid-template-columns: 1fr 2fr;
     font-size: 25px;
     text-align: justify;
+    font-family: 'Patrick Hand', cursive;
 
 }
 .sectionAbout p {
     display: flex;
     justify-content: end;
     padding-right: 15px;
+    font-family: 'Patrick Hand', cursive;
 }
 .skills {
     padding: auto;
