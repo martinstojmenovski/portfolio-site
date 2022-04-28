@@ -29,7 +29,8 @@ a{
 .navMenu {
        display: none;  
       
-}    
+} 
+/* hambure menu    */
 .navMenu.active {
     display: flex;
     justify-content: space-between;
@@ -101,14 +102,14 @@ h1 {
     padding: 10px;
 }
 .sectionMain {
-    background: url("backgroundImg/main\ background.jpg") no-repeat center;
+    background: url("background.jpg") no-repeat center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    height: 730px;
+    /* height: 730px; */
+    min-height: 100vh;
     text-align: center;
     padding: 200px 0 0 0;
     font-family: 'Goldman', cursive;
+    overflow: hidden;
     
 }
 h2 {
@@ -126,7 +127,7 @@ h2 {
     max-width: 120px;
 }
 .sectionAbout{
-    background: url("backgroundImg/about.jpg") no-repeat center;
+    background: url("about.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -180,3 +181,35 @@ footer {
     font-size: 30px;
     transition: 0.5s;
 }
+/* animation effects */
+/* span.roses {
+      position: absolute;
+      pointer-events: none;
+      filter: drop-shadow(0 0 15px rgba(0,0,0,0.5)) ;
+      animation: fadeInOut 1s linear infinite;
+}
+@keyframes fadeInOut {
+    0%,100% {
+        opacity: 0;
+    }
+    20%,80% {
+        opacity: 1;
+    }
+}
+span::before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+    background: url("free-clover.png");
+    background-size: cover;
+    animation: moveShape 2s linear infinite ;
+}
+@keyframes moveShape {
+    0% {
+        transform: translate(0) rotate(0deg);
+    }
+    100% {
+        transform: translate(300px) rotate(360deg);
+    }
+} */
