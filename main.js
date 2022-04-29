@@ -16,26 +16,28 @@
 //animation effects
 //test
 
-// $(document).on('mousemove', function(event){
-//     let sectionMain = $('.sectionMain');
-//     let heart = document.createElement('span')
-//     heart.className = "roses"
-//     let x = event.offsetX;
-//     let y = event.offsetY;
-//     heart.style.left = x + 'px';
-//     heart.style.top = y + 'px';
+$('.sectionMain').on('mousemove', function(event){
+    let sectionMain = $('.sectionMain')[0];
+    	
+    // let clover = $( ".sectionMain" ).append("<span></span>")
+    let clover = document.createElement('span')
+    clover.className = "roses"
+    let x = event.offsetX;
+    let y = event.offsetY;
+    clover.style.left = x + 'px';
+    clover.style.top = y + 'px';
 
-//     let size = Math.random() * 80;
-//     heart.style.width = 20 + size + 'px';
-//     heart.style.height = 20 + size + 'px';
+    let size = Math.random() * 80;
+    clover.style.width = 20 + size + 'px';
+    clover.style.height = 20 + size + 'px';
 
-//     let transformValue = Math.random() * 360;
-//     heart.style.transform = 'rotate('+ transformValue + 'deg)';
+    let transformValue = Math.random() * 360;
+   clover.style.transform = 'rotate('+ transformValue + 'deg)';
 
 
-//     sectionMain.appendChild(heart)
+    sectionMain.appendChild(clover)
 
-//     setTimeout(function(){
-//         heart.remove()
-//     }, 1000)
-// })
+    setTimeout(function(){
+        clover.remove()
+    }, 1000)
+})

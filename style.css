@@ -192,7 +192,7 @@ footer {
 /* adding something */
 /* adding something */
 /* animation effects */
-/* span.roses {
+span.roses {
       position: absolute;
       pointer-events: none;
       filter: drop-shadow(0 0 15px rgba(0,0,0,0.5)) ;
@@ -222,4 +222,4 @@ span::before {
     100% {
         transform: translate(300px) rotate(360deg);
     }
-} */
+}
