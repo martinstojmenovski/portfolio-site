@@ -131,7 +131,7 @@ h2 {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    height: 670px;
+    height: 870px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     font-size: 25px;
@@ -142,7 +142,7 @@ h2 {
 .sectionAbout p {
     display: flex;
     justify-content: end;
-    padding-right: 15px;
+    padding-right: 25px;
     font-family: 'Patrick Hand', cursive;
 }
 .skills {
@@ -164,9 +164,15 @@ footer {
     padding: 30px;
     font-size: 20px;
 }
+#sectionProjects {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 100px;
+}
 .projects {
-    max-width: 250px;
-    padding-bottom: 100px;
+    max-width: 220px;
+    
 }
 .contact {
     padding: 10px;
