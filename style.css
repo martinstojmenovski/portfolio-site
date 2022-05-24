@@ -102,7 +102,7 @@ h1 {
     padding: 10px;
 }
 .sectionMain {
-    background: url("background.jpg") no-repeat center;
+    background: url("images/background.jpg") no-repeat center;
     background-size: cover;
     /* height: 730px; */
     min-height: 100vh;
@@ -127,7 +127,7 @@ h2 {
     max-width: 120px;
 }
 .sectionAbout{
-    background: url("about.jpg") no-repeat center;
+    background: url("images/about.jpg") no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -211,7 +211,7 @@ span::before {
     position: absolute;
     width: 100%;
     height: 100%;  
-    background: url("free-clover.png");
+    background: url("images/free-clover.png");
     background-size: cover;
     animation: moveShape 2s linear infinite ;
 }
