@@ -104,7 +104,6 @@ h1 {
 .sectionMain {
     background: url("images/background.jpg") no-repeat center;
     background-size: cover;
-    /* height: 730px; */
     min-height: 100vh;
     text-align: center;
     padding: 200px 0 0 0;
@@ -164,15 +163,25 @@ footer {
     padding: 30px;
     font-size: 20px;
 }
-#sectionProjects {
- display: flex;
- flex-direction: column;
- justify-content: center;
- margin-left: 100px;
+.marveldiv {
+    padding-bottom: 20px;
 }
-.projects {
+.sectionProjects {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-left: 100px;
+ margin: 0px;
+}
+#projects {
     max-width: 220px;
     
+}
+.projects-marvel {
+    padding-bottom: 40px;
+}
+.projects-ventilation {
+    padding-bottom: 20px;
 }
 .contact {
     padding: 10px;
@@ -188,10 +197,6 @@ footer {
     transition: 0.5s;
 }
 
-
-/* adding something */
-/* adding something */
-/* animation effects */
 span.roses {
       position: absolute;
       pointer-events: none;
