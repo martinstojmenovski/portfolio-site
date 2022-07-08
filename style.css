@@ -168,10 +168,10 @@ footer {
 }
 .sectionProjects {
  display: flex;
- flex-direction: row;
- justify-content: space-evenly;
+ flex-direction: column;
+ justify-content: center;
  margin-left: 100px;
- margin: 0px;
+ padding: 20px;
 }
 #projects {
     max-width: 220px;
